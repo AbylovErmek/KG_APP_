@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_backround"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Вход"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/md"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/ic_back1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Добро пожаловать!"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_signIn"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_welcome"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Выполните вход или зарегистрируйтесь"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_signIn"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:hint="Введите вашу почту"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:padding="16dp"
+        android:text="Войти" />
+
+    <TextView
+        android:id="@+id/ms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_signIn"
+        android:layout_centerHorizontal="true"
+        android:text="Забыли пароль?"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ms"
+        android:layout_centerHorizontal="true"
+        android:text="Нажмите сюда"
+        android:textColor="@color/orange"
+        android:textSize="17sp" />
+
+
+</RelativeLayout>

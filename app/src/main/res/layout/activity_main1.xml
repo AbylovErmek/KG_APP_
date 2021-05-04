@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/loyout"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/ic_bg" />
+
+    <TextView
+        android:id="@+id/rt_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="180dp"
+        android:text="The Colloseum"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="205dp"
+        android:text="One of the most recognizable sites in the world"
+        android:textColor="@color/grey"
+        android:textSize="14dp" />
+
+    <FrameLayout
+        android:id="@+id/btn"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/loyout"
+        android:background="@drawable/ic_back3" />
+
+    <FrameLayout
+        android:id="@+id/btn1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/loyout"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btn"
+        android:background="@drawable/ic_back3" />
+
+    <FrameLayout
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/loyout"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btn1"
+        android:background="@drawable/ic_back3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/ic_bac" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/ic_btn" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/ic_btn1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="312"
+        android:textSize="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/boot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="#F85353"
+        android:text="Перейти" />
+
+</RelativeLayout>
