@@ -91,6 +91,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="600dp"
         android:background="#F85353"
-        android:text="Перейти" />
+        android:text="Перейти"
+        android:onClick="click"/>
 
 </RelativeLayout>

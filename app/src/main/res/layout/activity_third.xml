@@ -12,7 +12,7 @@
         android:layout_height="50dp"
         android:background="@drawable/ic_back3"
         android:hint="Введите цифру"
-        android:textColorHint="#F85555"
+        android:textColorHint="#FF5757"
         android:textSize="22dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"/>
@@ -23,6 +23,6 @@
         android:layout_marginTop="60dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="#F85353"
+        android:background="#E12222"
         android:text="Поменять" />
 </RelativeLayout>
