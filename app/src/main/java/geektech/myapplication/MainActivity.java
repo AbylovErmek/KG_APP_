@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click(View view) {
-        Intent intent = new Intent(this, RecyclerActivity.class);
+        Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
 }
